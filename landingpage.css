@@ -3,16 +3,14 @@ body {
 	background-color: #F5EFEF;
 }
 
-@media screen(max-width: 350px) {
-	#nav-bar
-
+@media screen(max-width: 400px;) {
+	#submit { font-size: 35%; }
 }
 
 #header { 
-	position: relative;
+	position: fixed;
 	top: 0; left: 0; right: 0; 
 	padding: 25px;
-	
 	
 }
 
@@ -27,6 +25,7 @@ body {
 	margin-top: 15px;
 }
 
+
 button { border: none; background-color: inherit; }
 
 .nav-link {
@@ -39,7 +38,7 @@ button { border: none; background-color: inherit; }
 	color: #000;
 }
 
-h1 { text-align: center; }
+h1 { text-align: center; margin-top: 40px;}
 
 #form-div { display: flex; justify-content: center; }
 
